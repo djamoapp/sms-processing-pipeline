@@ -8,7 +8,7 @@ import os
 # Ajouter le répertoire src au PYTHONPATH
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
-from main import extract_transactions
+from src.main import extract_transactions
 
 def main():
     print("🚀 Démarrage du pipeline de traitement SMS...")
